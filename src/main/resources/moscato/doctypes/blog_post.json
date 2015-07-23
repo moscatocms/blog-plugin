@@ -1,0 +1,15 @@
+{
+  "name": "Blog Post",
+  "fields": [
+    {
+      "name": "author",
+      "type": "link",
+      "required": true
+    },
+    {
+      "name": "content",
+      "type": "html",
+      "required": true
+    }
+  ]
+}
