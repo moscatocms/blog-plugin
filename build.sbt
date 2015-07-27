@@ -25,4 +25,4 @@ Revolver.settings
 
 mainClass in Revolver.reStart := Some("org.moscatocms.Boot")
 
-lazy val root = (project in file(".")).enablePlugins(DoctypePlugin)
+lazy val root = (project in file(".")).enablePlugins(MoscatoDoctypePlugin)
